@@ -1,0 +1,19 @@
+# 依赖与构建产物
+node_modules/
+package-lock.json
+
+# WorkBuddy 内部数据（记忆、临时截图、测试脚本）
+.workbuddy/
+
+# 原始素材（体积大，保留在本地）
+assets/
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+
+# 早期版本
+hamilton-murph-blue.html
+hamilton-murph-v1-drawn.html
