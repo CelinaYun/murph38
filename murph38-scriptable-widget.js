@@ -8,13 +8,13 @@
 //   4. 长按刚加的组件 → 编辑小组件 → Script 选「墨菲38」
 // ------------------------------------------------------------
 // 说明：
-//   · 表盘图片来自 https://murphy-watch.netlify.app/dial.webp（首次加载后本地缓存）
+//   · 表盘图片来自 https://celinayun.github.io/murph38/dial.webp（首次加载后本地缓存）
 //   · iOS 不允许小组件逐秒刷新，系统大约 15 分钟给一次机会；
 //     所以秒针停在「生成这一刻」的位置，分针/时针始终准确。
 //   · 想换时区，改下面的 TZ 常量（Asia/Shanghai / America/New_York ...）
 // ============================================================
 
-const DIAL_URL = "https://murphy-watch.netlify.app/dial.webp"
+const DIAL_URL = "https://celinayun.github.io/murph38/dial.webp"
 const TZ = "Asia/Shanghai"
 const BG_HEX = "#05080f"
 const CREAM = new Color("#e8dcc0")

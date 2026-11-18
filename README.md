@@ -9,7 +9,7 @@
 | `hamilton-murph-38-blue-steel.html` | 主交付物，单文件、无任何外部依赖（表盘/指针/图标全部内嵌 base64） |
 | `hamilton-murph-38-ios.html` | iOS / PWA 版本（追加 apple 全屏 meta、启动图、Service Worker） |
 | `manifest.webmanifest` | PWA 清单（图标内嵌） |
-| `deploy/murph38-ios-pwa.zip` | 可直接拖到 Netlify Drop / Sites→Deploys 的部署包（含 `_headers`） |
+| `deploy/murph38-ios-pwa.zip` | 静态托管部署包（index.html + manifest + 表盘图 + `_headers`） |
 | `deploy/murph38/dial.webp` | 透明底表盘图（640px），供 Scriptable 小组件使用 |
 | `murph38-scriptable-widget.js` | iOS 桌面小组件脚本（Scriptable，小号/中号） |
 | `scripts/build_ios.py` | 由主文件生成 iOS/PWA 版 |
@@ -30,9 +30,8 @@
 
 在线版：
 
-- GitHub Pages：<https://celinayun.github.io/murph38/>
+- 主页：<https://celinayun.github.io/murph38/>
 - 表盘模式（可添加到主屏幕）：<https://celinayun.github.io/murph38/?face>
-- Netlify 镜像：<https://murphy-watch.netlify.app>
 
 ## 构建（可选）
 
