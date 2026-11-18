@@ -17,3 +17,7 @@ Thumbs.db
 # 早期版本
 hamilton-murph-blue.html
 hamilton-murph-v1-drawn.html
+
+# Python 缓存
+__pycache__/
+*.pyc
