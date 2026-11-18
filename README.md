@@ -28,7 +28,11 @@
 
 直接用浏览器打开 `hamilton-murph-38-blue-steel.html` 即可，无构建、无依赖。
 
-在线版：<https://murphy-watch.netlify.app>
+在线版：
+
+- GitHub Pages：<https://celinayun.github.io/murph38/>
+- 表盘模式（可添加到主屏幕）：<https://celinayun.github.io/murph38/?face>
+- Netlify 镜像：<https://murphy-watch.netlify.app>
 
 ## 构建（可选）
 
