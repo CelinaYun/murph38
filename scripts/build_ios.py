@@ -3,7 +3,7 @@
 """Build iOS PWA variant of the Hamilton Murph 38 clock page."""
 import os, shutil
 
-BASE = 'C:/Users/Administrator/WorkBuddy/2026-10-20-16-38-05'
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TMP = BASE + '/.workbuddy/tmp'
 
 src = open(BASE + '/hamilton-murph-38-blue-steel.html', encoding='utf-8').read()

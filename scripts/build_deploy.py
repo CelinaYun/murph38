@@ -3,7 +3,7 @@
 """Build deploy/murph38/ package and zip from the iOS HTML."""
 import os, io, re, zipfile, shutil
 
-BASE = r'C:\Users\Administrator\WorkBuddy\2026-10-20-16-38-05'
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 IOS = os.path.join(BASE, 'hamilton-murph-38-ios.html')
 DEPLOY_DIR = os.path.join(BASE, 'deploy', 'murph38')
 ZIP_PATH = os.path.join(BASE, 'deploy', 'murph38-ios-pwa.zip')
